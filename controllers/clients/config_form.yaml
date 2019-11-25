@@ -1,0 +1,10 @@
+name: Clientes
+form: $/wiz/clients/models/client/fields.yaml
+modelClass: Wiz\Clients\Models\Client
+defaultRedirect: wiz/clients/clients
+create:
+    redirect: 'wiz/clients/clients/update/:id'
+    redirectClose: wiz/clients/clients
+update:
+    redirect: wiz/clients/clients
+    redirectClose: wiz/clients/clients

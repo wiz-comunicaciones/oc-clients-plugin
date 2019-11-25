@@ -1,0 +1,37 @@
+fields:
+
+    name:
+        label: 'Nombre'
+        span: auto
+
+    slug:
+        label: 'Slug'
+        span: auto
+        preset: name
+        readOnly: true
+
+    url:
+        label: 'URL del cliente'
+        span: auto
+        placeholder: 'http://ejemplo.com'
+        comment: 'Puede ser un enlace externo o interno del sitio.'
+
+    is_visible:
+        label: '¿Es visible?'
+        span: auto
+        type: switch
+        comment: 'Determine si el cliente es visible o no'
+
+    is_convenio:
+        label: 'Pertenece a Convenio Marco?'
+        span: auto
+        type: switch
+        comment: 'Determine si el cliente pertenece a Convenio Marco'
+
+    featured_image:
+        label: 'Imagen'
+        comment: 'Cargue el logo del cliente'
+        span: auto
+        type: fileupload
+        mode: image
+        imageWidth: 150

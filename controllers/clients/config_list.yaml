@@ -1,0 +1,12 @@
+title: Clientes
+modelClass: Wiz\Clients\Models\Client
+list: $/wiz/clients/models/client/columns.yaml
+recordUrl: 'wiz/clients/clients/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

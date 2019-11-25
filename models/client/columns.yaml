@@ -1,0 +1,36 @@
+columns:
+
+    id:
+        label: 'ID'
+        type: number
+        invisible: true
+    
+    name:
+        label: 'Nombre del cliente'
+        searchable: true
+
+    slug:
+        label: 'Slug'
+        invisible: true
+    
+    url:
+        label: 'URL'
+        searchable: true
+
+    is_external:
+        label: '¿Es un enlace externo?'
+        type: switch
+    
+    is_visible:
+        label: '¿Es visible?'
+        type: switch
+    
+    created_at:
+        label: 'Creado el'
+        type: datetime
+        invisible: true
+    
+    updated_at:
+        label: 'ültima actualización'
+        type: datetime
+        invisible: true

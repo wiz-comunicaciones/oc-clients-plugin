@@ -1,0 +1,4 @@
+title: Clientes
+modelClass: Wiz\Clients\Models\Client
+toolbar:
+    buttons: reorder_toolbar
