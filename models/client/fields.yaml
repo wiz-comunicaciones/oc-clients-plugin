@@ -20,10 +20,11 @@ fields:
         label: '¿Es visible?'
         span: auto
         type: switch
+        default: 1
         comment: 'Determine si el cliente es visible o no'
 
-    featured_image:
-        label: 'Imagen'
+    logo:
+        label: 'Logo'
         comment: 'Cargue el logo del cliente'
         span: auto
         type: fileupload

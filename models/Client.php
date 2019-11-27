@@ -18,11 +18,11 @@ class Client extends Model
 
     public $rules = [
         'name' => 'required',
-        'featured_image' => 'required'
+        'logo' => 'required'
     ];
 
     public $attachOne = [
-        'featured_image' => [
+        'logo' => [
             'System\Models\File',
             'delete' => true
         ]
