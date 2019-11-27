@@ -22,12 +22,6 @@ fields:
         type: switch
         comment: 'Determine si el cliente es visible o no'
 
-    is_convenio:
-        label: 'Pertenece a Convenio Marco?'
-        span: auto
-        type: switch
-        comment: 'Determine si el cliente pertenece a Convenio Marco'
-
     featured_image:
         label: 'Imagen'
         comment: 'Cargue el logo del cliente'
