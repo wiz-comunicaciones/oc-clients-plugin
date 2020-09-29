@@ -43,4 +43,11 @@ class Plugin extends PluginBase
         ];
     }
 
+    public function registerComponents()
+    {
+        return [
+            \Wiz\Clients\Components\Clients::class => 'Clients',
+        ];
+    }
+
 }
