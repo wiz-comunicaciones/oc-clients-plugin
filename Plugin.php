@@ -11,7 +11,7 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'Clients',
+            'name'        => 'Clientes',
             'description' => 'Plugin que permite la gestión de clientes',
             'author'      => 'Wiz Comunicaciones',
             'icon'        => 'icon-leaf',
